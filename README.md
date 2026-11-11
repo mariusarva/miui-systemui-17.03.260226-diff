@@ -21,6 +21,12 @@
 
 > 附带问题：改版 `resources.arsc` 被 MT 重编后，`aapt dump badging` 报 `ResTable_type entry index to 0x22dd8 extends beyond chunk end`，资源表结构有越界条目。apktool 解码正常，但**任何依赖 aapt/aapt2 的处理链（含 `zipalign` 后的 `aapt` 校验、部分 ROM 工具链）会失败**。
 
+> 原件下载（GitHub Release v1.0.0，仓库本体不放 52MB 二进制）：
+> [原版 `系统界面_17.03.260226.r.apk`](https://github.com/mariusarva/miui-systemui-17.03.260226-diff/releases/download/v1.0.0/SystemUI-original-17.03.260226.r.apk) ·
+> [改版 `MiuiSystemUI.apk`](https://github.com/mariusarva/miui-systemui-17.03.260226-diff/releases/download/v1.0.0/MiuiSystemUI.apk)
+>
+> GitHub 会剥离 release 附件名里的非 ASCII 字符，原版附件实际名为 `SystemUI-original-17.03.260226.r.apk`，内容即原文件（SHA-256 见上表）。
+
 ## 1. 结论速览
 
 改版在原版基础上做了 **12 组改动**，全部是「既有视图里注入 + 资源换皮」，没有新增 dex、没有改 Manifest、没有重签：
@@ -313,6 +319,7 @@ docs/02-资源层.md          layout / values / drawable 全量差异
 docs/03-复现与口径.md      工具版本、归一化规则、误报来源
 data/                      原始比对数据（类清单、方法级 tsv、资源 diff）
 scripts/                   可复现脚本
+记录/                      本次审计的过程记录（四行头 + 结论 + 产物索引）
 ```
 
 ## 10. 结论分层
