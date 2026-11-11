@@ -219,7 +219,8 @@
 
 ### 4.12 控制中心整体放大 9%
 
-- `-xxhdpi` 下 **83 个 `qs_control_*` dimens 统一乘 1.0909（12/11）**，例：`qs_control_big_tile_width` 142.0→154.909dp、`qs_control_big_tile_height` 73.33→80.0dp、`qs_control_detail_width` 297.328→324.359dp、`qs_control_corner_general_radius` 16.0→17.454dp、`qs_control_tiles_indicator_width` 40.0→61.818dp（这一项是 +54%，独立于整体系数）。
+- `-xxhdpi` 下 87 个 dimen 值变化，其中 **83 个 `qs_control_*` 统一乘 1.0909（= 12/11，比值中位数 1.09091，min 1.0909 / max 1.0909）**。例：`qs_control_big_tile_width` 142.0→154.909dp、`qs_control_big_tile_height` 73.33→80.0dp、`qs_control_detail_width` 297.328→324.359dp、`qs_control_corner_general_radius` 16.0→17.454dp。
+- 三个例外（不按整体系数，独立微调）：`qs_control_tile_label_padding_top` 6.0→4.545dp（×0.758）、`qs_control_tiles_indicator_height` 3.333→3.8dp（×1.14）、`qs_control_tiles_indicator_width` 40.0→61.818dp（×1.545，指示条明显加宽）。
 - 新增 `-xxxhdpi` 变体 30 个键（原版只有 `-xxhdpi`），即给高分屏补了同值。
 - 新增 `-xxhdpi` 键 49 个（原版缺键、只在改版存在），包括 `qs_control_big_tile_corner_radius`、`qs_control_big_tile_status_width`、`qs_control_content_view_margin_right` 等。
 - 删除 `-xxhdpi` 键 20 个。
@@ -294,6 +295,20 @@ com/xiaomi/onetrack/f/a
 6. **`PhoneStatusBarView.dispatchTouchEvent` 无条件先跑手势判定**：时钟区 16dp 阈值内的滑动会被吞掉，时钟长按（秒开关）与原生长按事件可能冲突。
 7. **`NumPadKey.drawableStateChanged` 删掉了原 Folme 按压块（-12 行）**：原按键按压动效由 `LockscreenPinGlass` 接管，两者若同时生效会抢属性。
 8. **`data_type_name_default_value` 的 `5Gᴀ`**：用的是小体大写字母 U+1D00，不是 `A`，某些字体下会渲染成方框。
+
+## 7.1 与既有审计的交叉验证
+
+工作区内已有一份 2026-11-07 的独立清单（`项目/apk移植/记录/参考-系统界面全量修改清单-20261107.md`，方法同为 apktool 3.0.3 + 归一化 diff）。两份结论对得上：
+
+| 指标 | 11-07 清单 | 本次审计 | 说明 |
+|---|---|---|---|
+| ZIP 新增 / 修改 / 删除 | 38 / 37 / 0 | 38 / 37 / 0 | 一致 |
+| 新增类 | 57 | 57 | 一致 |
+| 真实改动类 | 54 | 53 | 差 1：本次把「归一化后方法体与字段完全一致」的类整类剔除，判定更严 |
+| 噪声数 | 190 | 191 | 同上，同一分界点 |
+| res 新增 | 34 | 34 | 一致 |
+
+本次在此基础上补了三项 11-07 清单没有的结论：签名未变（v3 摘要不匹配）、改版 `resources.arsc` 结构越界导致 aapt 链不可用、`-xxhdpi` 全量 ×1.0909 的放大系数。
 
 ## 8. 复现
 
