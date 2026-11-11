@@ -1,0 +1,345 @@
+# 归一化后的真实改动
+
+- 内容不同类文件：244
+- 归一化后真实改动类：53
+- 新增类：57 / 删除类：0
+- 新增方法：21 / 删除方法：0 / 改动方法：67
+
+## 真实改动类清单
+
+- `com/android/keyguard/KeyguardPINView$appearAnimConfig$1.smali`
+- `com/android/keyguard/KeyguardPINView.smali`
+- `com/android/keyguard/NumPadKey.smali`
+- `com/android/keyguard/blur/MiuiKeyguardBlurInteractor$wallpaperBlurRatio$2$1.smali`
+- `com/android/keyguard/panel/KeyguardPanelViewController$nsslLockYPosition_delegate$lambda$102$$inlined$combine$1$3.smali`
+- `com/android/keyguard/panel/KeyguardPanelViewController.smali`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterStatusBarIcon.smali`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderController.smali`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderExpandController$controlCenterCallback$1.smali`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderExpandController$start$1$1$1.smali`
+- `com/android/systemui/controlcenter/shade/NotificationHeaderExpandController$notificationCallback$1.smali`
+- `com/android/systemui/controlcenter/shade/NotificationHeaderExpandController.smali`
+- `com/android/systemui/qs/MiuiNotificationHeaderView.smali`
+- `com/android/systemui/statusbar/DarkIconDispatcherExt.smali`
+- `com/android/systemui/statusbar/StatusBarIconView.smali`
+- `com/android/systemui/statusbar/StatusBarIslandControllerImpl.smali`
+- `com/android/systemui/statusbar/notification/mediacontrol/MiuiMediaViewControllerImpl.smali`
+- `com/android/systemui/statusbar/notification/stack/StackScrollAlgorithm.smali`
+- `com/android/systemui/statusbar/notification/stack/domain/interactor/SharedNotificationContainerInteractor$useExtraShelfSpace$1.smali`
+- `com/android/systemui/statusbar/notification/style/vieweffect/FocusNotificationGlassEffect.smali`
+- `com/android/systemui/statusbar/notification/style/vieweffect/FocusNotificationGlassOnKeyguardEffect.smali`
+- `com/android/systemui/statusbar/notification/style/vieweffect/FocusNotificationGlassOnKeyguardLightWallPaperEffect.smali`
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassDarkEffect.smali`
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassEffect.smali`
+- `com/android/systemui/statusbar/notification/utils/NotificationUtil$1.smali`
+- `com/android/systemui/statusbar/phone/KeyguardStatusBarViewController.smali`
+- `com/android/systemui/statusbar/phone/MiuiIconManagerUtils.smali`
+- `com/android/systemui/statusbar/phone/MiuiKeyguardStatusBarView.smali`
+- `com/android/systemui/statusbar/phone/MiuiPhoneStatusBarPolicy$$ExternalSyntheticLambda1.smali`
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali`
+- `com/android/systemui/statusbar/phone/ui/StatusBarIconControllerImpl.smali`
+- `com/android/systemui/statusbar/pipeline/mobile/domain/interactor/MiuiMobileIconsInteractorImpl.smali`
+- `com/android/systemui/statusbar/pipeline/mobile/ui/binder/MiuiMobileIconBinder$bind$1$1$15.smali`
+- `com/android/systemui/statusbar/pipeline/mobile/ui/view/ModernStatusBarMobileView.smali`
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali`
+- `com/android/systemui/statusbar/pipeline/shared/domain/interactor/HomeStatusBarIconBlockListInteractor.smali`
+- `com/android/systemui/statusbar/pipeline/shared/ui/binder/HomeStatusBarViewBinderInjector$statusBarStateCallback$1.smali`
+- `com/android/systemui/statusbar/pipeline/shared/ui/binder/HomeStatusBarViewBinderInjector.smali`
+- `com/android/systemui/statusbar/pipeline/shared/ui/composable/StatusBarRootKt$$ExternalSyntheticLambda3.smali`
+- `com/android/systemui/statusbar/policy/HDController.smali`
+- `com/android/systemui/statusbar/policy/NetworkSpeedController$5.smali`
+- `com/android/systemui/statusbar/policy/NetworkSpeedController.smali`
+- `com/android/systemui/statusbar/views/MiuiBatteryMeterView.smali`
+- `com/android/systemui/statusbar/views/MiuiClock.smali`
+- `com/android/systemui/statusbar/views/NetworkSpeedView.smali`
+- `com/miui/clock/classic/ClassicTextAreaView.smali`
+- `com/miui/clock/module/ClockBean.smali`
+- `com/miui/systemui/notification/MiuiBaseNotifUtil.smali`
+- `com/miui/systemui/shade/header/ShadeHeaderClipController.smali`
+- `com/miui/systemui/util/ScenarioRecognitionEventUtils.smali`
+- `com/miui/systemui/widget/CircleAndTickAnimView.smali`
+- `com/xiaomi/onetrack/f/a.smali`
+
+## 新增方法
+
+- `com/android/keyguard/KeyguardPINView.smali` → `protected onLayout(ZIIII)V`
+- `com/android/keyguard/NumPadKey.smali` → `public final onWindowFocusChanged(Z)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali` → `public setAlpha(F)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali` → `public setTranslationX(F)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali` → `public setTranslationY(F)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali` → `public setVisibility(I)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterStatusBarIcon.smali` → `public setAlpha(F)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterStatusBarIcon.smali` → `public setTranslationX(F)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterStatusBarIcon.smali` → `public setTranslationY(F)V`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterStatusBarIcon.smali` → `public setVisibility(I)V`
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali` → `private final handleClockSwipe(Landroid/view/MotionEvent;)V`
+- `com/android/systemui/statusbar/pipeline/mobile/ui/view/ModernStatusBarMobileView.smali` → `public setVisibility(I)V`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `private final chain()Ljava/lang/String;`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `private final isInStatusBar()Z`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final applySecondsState(Z)V`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final isSecondsEnabled()Z`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final onLongClick(Landroid/view/View;)Z`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final run()V`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final scheduleTick()V`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final syncSecondsTicker()V`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final toggleSeconds()V`
+
+## 改动方法（+新增指令行 / -删除指令行）
+
+- `com/android/keyguard/KeyguardPINView$appearAnimConfig$1.smali` → `public final onComplete(Ljava/lang/Object;)V (+1/-0)`
+- `com/android/keyguard/KeyguardPINView$appearAnimConfig$1.smali` → `public onUpdate(Ljava/lang/Object;Ljava/util/Collection;)V (+3/-0)`
+- `com/android/keyguard/NumPadKey.smali` → `public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V (+4/-0)`
+- `com/android/keyguard/NumPadKey.smali` → `public final drawableStateChanged()V (+1/-12)`
+- `com/android/keyguard/NumPadKey.smali` → `public final onDetachedFromWindow()V (+1/-0)`
+- `com/android/keyguard/NumPadKey.smali` → `public final onLayout(ZIIII)V (+2/-0)`
+- `com/android/keyguard/NumPadKey.smali` → `public final onTouchEvent(Landroid/view/MotionEvent;)Z (+6/-0)`
+- `com/android/keyguard/blur/MiuiKeyguardBlurInteractor$wallpaperBlurRatio$2$1.smali` → `public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; (+0/-18)`
+- `com/android/keyguard/panel/KeyguardPanelViewController$nsslLockYPosition_delegate$lambda$102$$inlined$combine$1$3.smali` → `public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; (+1/-0)`
+- `com/android/keyguard/panel/KeyguardPanelViewController.smali` → `public final doBlurAndDim(FZZZ)V (+0/-0)`
+- `com/android/keyguard/panel/KeyguardPanelViewController.smali` → `public static setWallpaperSyncBlur(FLandroid/view/View;)V (+1/-0)`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali` → `public final onAttachedToWindow()V (+2/-1)`
+- `com/android/systemui/controlcenter/phone/widget/ControlCenterFakeStatusIcons.smali` → `public final onFinishInflate()V (+3/-1)`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderController.smali` → `public final updateConstraint()V (+0/-0)`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderController.smali` → `public final updateDimens()V (+1/-1)`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderExpandController$controlCenterCallback$1.smali` → `public final onExpansionChanged(F)V (+4/-0)`
+- `com/android/systemui/controlcenter/shade/ControlCenterHeaderExpandController$start$1$1$1.smali` → `public final emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object; (+2/-0)`
+- `com/android/systemui/controlcenter/shade/NotificationHeaderExpandController$notificationCallback$1.smali` → `public final onExpansionChanged(F)V (+2/-2)`
+- `com/android/systemui/controlcenter/shade/NotificationHeaderExpandController.smali` → `public final updateTranslationX()V (+0/-2)`
+- `com/android/systemui/qs/MiuiNotificationHeaderView.smali` → `public final updateCarrierText$1()V (+5/-38)`
+- `com/android/systemui/statusbar/DarkIconDispatcherExt.smali` → `public static final getDarkIntensity(Ljava/util/ArrayList;Landroid/view/View;F)F (+2/-0)`
+- `com/android/systemui/statusbar/DarkIconDispatcherExt.smali` → `public static final getTint(Ljava/util/Collection;Landroid/view/View;I)I (+5/-2)`
+- `com/android/systemui/statusbar/StatusBarIconView.smali` → `public final updateIconColor()V (+9/-1)`
+- `com/android/systemui/statusbar/StatusBarIslandControllerImpl.smali` → `public final refreshTranslation()V (+0/-0)`
+- `com/android/systemui/statusbar/notification/mediacontrol/MiuiMediaViewControllerImpl.smali` → `public final onFullAodStateChanged(Z)V (+1/-1)`
+- `com/android/systemui/statusbar/notification/stack/StackScrollAlgorithm.smali` → `public final getScrimTopPaddingOrZero(Lcom/android/systemui/statusbar/notification/stack/AmbientState;)F (+0/-0)`
+- `com/android/systemui/statusbar/notification/stack/domain/interactor/SharedNotificationContainerInteractor$useExtraShelfSpace$1.smali` → `public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; (+1/-22)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/FocusNotificationGlassEffect.smali` → `public final apply(Ljava/lang/Object;Landroid/content/Context;)V (+3/-3)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/FocusNotificationGlassOnKeyguardEffect.smali` → `public final apply(Ljava/lang/Object;Landroid/content/Context;)V (+3/-3)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/FocusNotificationGlassOnKeyguardLightWallPaperEffect.smali` → `public final apply(Ljava/lang/Object;Landroid/content/Context;)V (+3/-3)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassDarkEffect.smali` → `public final apply(Ljava/lang/Object;Landroid/content/Context;)V (+26/-49)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassDarkEffect.smali` → `public final clear(Ljava/lang/Object;)V (+1/-47)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassEffect.smali` → `public final apply(Ljava/lang/Object;Landroid/content/Context;)V (+26/-49)`
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassEffect.smali` → `public final clear(Ljava/lang/Object;)V (+1/-47)`
+- `com/android/systemui/statusbar/notification/utils/NotificationUtil$1.smali` → `public final getOutline(Landroid/view/View;Landroid/graphics/Outline;)V (+5/-2)`
+- `com/android/systemui/statusbar/phone/KeyguardStatusBarViewController.smali` → `public final onViewAttached()V (+2/-1)`
+- `com/android/systemui/statusbar/phone/MiuiIconManagerUtils.smali` → `static constructor <clinit>()V (+0/-0)`
+- `com/android/systemui/statusbar/phone/MiuiKeyguardStatusBarView.smali` → `public final updateCarrierVisibility$1()V (+7/-14)`
+- `com/android/systemui/statusbar/phone/MiuiPhoneStatusBarPolicy$$ExternalSyntheticLambda1.smali` → `public final run()V (+6/-0)`
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali` → `public final dispatchTouchEvent(Landroid/view/MotionEvent;)Z (+1/-0)`
+- `com/android/systemui/statusbar/phone/ui/StatusBarIconControllerImpl.smali` → `public constructor <init>(Landroid/content/Context;Lcom/android/systemui/statusbar/CommandQueue;Lcom/android/systemui/demomode/DemoModeController;Lcom/android/systemui/tuner/TunerService;Lcom/android/systemui/dump/DumpManager;Lcom/android/systemui/statusbar/phone/ui/StatusBarIconList;Lcom/android/systemui/statusbar/pipeline/StatusBarPipelineFlags;Lcom/android/systemui/statusbar/policy/MinimalismModeController;Lcom/android/systemui/util/kotlin/JavaAdapter;Lcom/android/systemui/statusbar/policy/StatusBarIconObserver;Lcom/android/systemui/statusbar/pipeline/icons/shared/BindableIconsRegistryImpl;)V (+1/-0)`
+- `com/android/systemui/statusbar/pipeline/mobile/domain/interactor/MiuiMobileIconsInteractorImpl.smali` → `public final getMiuiMobileConnectionInterForSubId(ILcom/android/systemui/statusbar/pipeline/mobile/domain/interactor/MobileIconInteractor;)Lcom/android/systemui/statusbar/pipeline/mobile/domain/interactor/MiuiMobileIconInteractorImpl; (+1/-0)`
+- `com/android/systemui/statusbar/pipeline/mobile/ui/binder/MiuiMobileIconBinder$bind$1$1$15.smali` → `public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; (+5/-13)`
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` → `public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; (+3/-3)`
+- `com/android/systemui/statusbar/pipeline/shared/domain/interactor/HomeStatusBarIconBlockListInteractor.smali` → `public constructor <init>(Landroid/content/res/Resources;Lcom/android/systemui/util/settings/repository/UserAwareSecureSettingsRepository;)V (+1/-1)`
+- `com/android/systemui/statusbar/pipeline/shared/ui/binder/HomeStatusBarViewBinderInjector$statusBarStateCallback$1.smali` → `public final onStateChanged(I)V (+1/-0)`
+- `com/android/systemui/statusbar/pipeline/shared/ui/binder/HomeStatusBarViewBinderInjector$statusBarStateCallback$1.smali` → `public final onStatePreChange(II)V (+2/-0)`
+- `com/android/systemui/statusbar/pipeline/shared/ui/binder/HomeStatusBarViewBinderInjector.smali` → `public final hideClock(Z)V (+1/-0)`
+- `com/android/systemui/statusbar/pipeline/shared/ui/binder/HomeStatusBarViewBinderInjector.smali` → `public final showClock(Z)V (+2/-0)`
+- `com/android/systemui/statusbar/pipeline/shared/ui/composable/StatusBarRootKt$$ExternalSyntheticLambda3.smali` → `public final invoke(Ljava/lang/Object;)Ljava/lang/Object; (+2/-0)`
+- `com/android/systemui/statusbar/policy/HDController.smali` → `public final isVisible(I)Z (+0/-1)`
+- `com/android/systemui/statusbar/policy/NetworkSpeedController$5.smali` → `public final handleMessage(Landroid/os/Message;)V (+2/-5)`
+- `com/android/systemui/statusbar/policy/NetworkSpeedController.smali` → `public constructor <init>(Landroid/content/Context;Landroid/os/Looper;Lcom/android/systemui/statusbar/phone/ui/StatusBarIconController;Ljava/util/concurrent/Executor;Lcom/android/systemui/settings/UserTracker;Landroid/net/ConnectivityManager;Lcom/android/systemui/statusbar/policy/MinimalismModeController;Lcom/android/systemui/statusbar/CommandQueue;Lcom/android/systemui/dump/DumpManager;Lcom/android/systemui/settings/DisplayTracker;)V (+2/-2)`
+- `com/android/systemui/statusbar/views/MiuiBatteryMeterView.smali` → `public final onBatteryStyleChanged(I)V (+1/-0)`
+- `com/android/systemui/statusbar/views/MiuiBatteryMeterView.smali` → `public final onLayout(ZIIII)V (+1/-0)`
+- `com/android/systemui/statusbar/views/MiuiBatteryMeterView.smali` → `public final updateChargeAndText()V (+6/-0)`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final onDetachedFromWindow()V (+2/-0)`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public final updateTime()V (+21/-0)`
+- `com/android/systemui/statusbar/views/MiuiClock.smali` → `public updateLightDarkTint$2(Ljava/util/ArrayList;FIIIZ)V (+1/-0)`
+- `com/android/systemui/statusbar/views/NetworkSpeedView.smali` → `public final updateNetworkSpeed$1()V (+2/-18)`
+- `com/android/systemui/statusbar/views/NetworkSpeedView.smali` → `public final updateResources$15()V (+25/-1)`
+- `com/android/systemui/statusbar/views/NetworkSpeedView.smali` → `public getNetworkSpeedWidth()I (+3/-3)`
+- `com/miui/clock/classic/ClassicTextAreaView.smali` → `public final init(Landroid/content/Context;)V (+1/-1)`
+- `com/miui/clock/module/ClockBean.smali` → `public isColonShow()Z (+1/-1)`
+- `com/miui/systemui/notification/MiuiBaseNotifUtil.smali` → `public static shouldSuppressFold()Z (+0/-1)`
+- `com/miui/systemui/shade/header/ShadeHeaderClipController.smali` → `static constructor <clinit>()V (+1/-1)`
+- `com/miui/systemui/widget/CircleAndTickAnimView.smali` → `public final onDraw(Landroid/graphics/Canvas;)V (+0/-0)`
+
+## 新增字段
+
+- `com/android/keyguard/NumPadKey.smali` : .field mPinGlassBaseRipple:L/graphics/drawable/RippleDrawable;
+- `com/android/keyguard/NumPadKey.smali` : .field mPinGlassHighlightAnimator:L/animation/Animator;
+- `com/android/keyguard/NumPadKey.smali` : .field mPinGlassOverlay:L/widget/ImageView;
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassDarkEffect.smali` : .field public static glassParamsArray:[F
+- `com/android/systemui/statusbar/notification/style/vieweffect/HeadsUpNotificationGlassEffect.smali` : .field public static glassParamsArray:[F
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali` : .field public mClockSwipeHandled:L
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali` : .field public mClockSwipeOnClock:L
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali` : .field public mClockSwipeX:L
+- `com/android/systemui/statusbar/phone/PhoneStatusBarView.smali` : .field public mClockSwipeY:L
+- `com/android/systemui/statusbar/pipeline/mobile/ui/binder/MiuiMobileIconBinder$bind$1$1$15.smali` : .field final synthetic $miuiVM:L/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiMobileIconViewModel;
+- `com/android/systemui/statusbar/pipeline/mobile/ui/binder/MiuiMobileIconBinder$bind$1$1$15.smali` : .field final synthetic $mobileType:L/widget/ImageView;
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` : .field synthetic Z$0:L
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` : .field synthetic Z$1:L
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` : .field synthetic Z$2:L
+- `com/android/systemui/statusbar/views/MiuiClock.smali` : .field public mSecTickerOn:L
+- `com/android/systemui/statusbar/views/MiuiClock.smali` : .field public mSwipeDownX:L
+- `com/android/systemui/statusbar/views/MiuiClock.smali` : .field public mSwipeDownY:L
+- `com/android/systemui/statusbar/views/MiuiClock.smali` : .field public mSwipeHandled:L
+- `com/miui/systemui/util/ScenarioRecognitionEventUtils.smali` : .field public static volatile sFaceUnlockStartTime:L
+- `com/miui/systemui/util/ScenarioRecognitionEventUtils.smali` : .field public static volatile sFingerprintUnlockStartTime:L
+- `com/xiaomi/onetrack/f/a.smali` : .field public static f:L
+
+## 删除字段
+
+- `com/android/systemui/statusbar/pipeline/mobile/ui/binder/MiuiMobileIconBinder$bind$1$1$15.smali` : .field public final synthetic $miuiVM:L/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiMobileIconViewModel;
+- `com/android/systemui/statusbar/pipeline/mobile/ui/binder/MiuiMobileIconBinder$bind$1$1$15.smali` : .field public final synthetic $mobileType:L/widget/ImageView;
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` : .field public synthetic Z$0:L
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` : .field public synthetic Z$1:L
+- `com/android/systemui/statusbar/pipeline/mobile/ui/viewmodel/MiuiCellularIconVM$mobileTypeSingleVisible$2.smali` : .field public synthetic Z$2:L
+- `com/miui/systemui/util/ScenarioRecognitionEventUtils.smali` : .field public static volatile sFaceUnlockStartTime:L = 0x0L
+- `com/miui/systemui/util/ScenarioRecognitionEventUtils.smali` : .field public static volatile sFingerprintUnlockStartTime:L = 0x0L
+- `com/xiaomi/onetrack/f/a.smali` : .field public static f:L = 0x0L
+
+## 改动方法里新增指令调用的热点（top 80）
+
+-    8  `java/lang/StringBuilder;->append`
+-    5  `com/android/systemui/statusbar/notification/style/vieweffect/NotificationRowBlurEffect;->apply`
+-    4  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->rightBlockList`
+-    4  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->setHomeLeftVisible`
+-    2  `com/android/keyguard/LockscreenPinGlass;->applyPasswordRowOffset`
+-    2  `com/android/keyguard/LockscreenPinGlass;->handleTouch`
+-    2  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->filterFakeAll`
+-    2  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->tick`
+-    2  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->inGroup`
+-    2  `android/content/Context;->getResources`
+-    2  `android/content/res/Resources;->getStringArray`
+-    2  `kotlin/collections/ArraysKt;->filterNotNull`
+-    2  `kotlin/collections/CollectionsKt__IterablesKt;->collectionSizeOrDefault`
+-    2  `java/util/ArrayList;-><init>`
+-    2  `java/lang/Iterable;->iterator`
+-    2  `java/util/Iterator;->hasNext`
+-    2  `java/util/Iterator;->next`
+-    2  `java/lang/Float;->parseFloat`
+-    2  `java/lang/Float;->valueOf`
+-    2  `java/util/Collection;->add`
+-    2  `kotlin/collections/CollectionsKt;->toFloatArray`
+-    2  `android/view/View;->getId`
+-    2  `java/lang/IllegalStateException;-><init>`
+-    2  `java/lang/StringBuilder;-><init>`
+-    2  `java/lang/StringBuilder;->toString`
+-    2  `android/widget/TextView;->setIncludeFontPadding`
+-    2  `android/widget/FrameLayout$LayoutParams;-><init>`
+-    2  `android/widget/TextView;->setLayoutParams`
+-    1  `com/android/keyguard/LockscreenPinGlass;->getPasswordRowOffsetPx`
+-    1  `com/android/keyguard/LockscreenPinGlass;->syncPressed`
+-    1  `com/android/keyguard/LockscreenPinGlass;->clearPressImmediately`
+-    1  `com/android/keyguard/LockscreenPinGlass;->apply`
+-    1  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->hookFake`
+-    1  `com/carrier/datasim/CcAnimFix;->setProgress`
+-    1  `com/carrier/datasim/CcAnimFix;->setIslandTranX`
+-    1  `com/carrier/datasim/CcAnimFix;->setBurnTranX`
+-    1  `kotlin/Pair;->getSecond`
+-    1  `com/carrier/datasim/CcAnimFix;->setBurnTranY`
+-    1  `android/widget/LinearLayout;->setTranslationX`
+-    1  `android/widget/LinearLayout;->setTranslationY`
+-    1  `kotlin/collections/CollectionsKt;->filterNotNull`
+-    1  `android/service/notification/StatusBarNotification;->getOpPkg`
+-    1  `java/lang/Object;->equals`
+-    1  `android/service/notification/StatusBarNotification;->getPackageName`
+-    1  `android/miui/AppOpsUtils;->isExceptionByTestPolicy`
+-    1  `android/content/res/Resources;->getDimension`
+-    1  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->installKeyguard`
+-    1  `android/widget/RelativeLayout;->findViewById`
+-    1  `android/util/Log;->d`
+-    1  `com/carrier/datasim/SimCarrierView;->setForceHidden`
+-    1  `android/nfc/NfcAdapter;->getDefaultAdapter`
+-    1  `android/nfc/NfcAdapter;->isEnabled`
+-    1  `com/android/systemui/statusbar/phone/PhoneStatusBarView;->handleClockSwipe`
+-    1  `com/android/systemui/statusbar/phone/MiuiRotateIconInjector;->install`
+-    1  `com/carrier/datasim/DataSimTypeRegistry;->register`
+-    1  `android/widget/ImageView;->setVisibility`
+-    1  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->setHomeLeftByInjector`
+-    1  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->holdHost`
+-    1  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->installHome`
+-    1  `android/view/View;->removeCallbacks`
+-    1  `com/android/systemui/statusbar/views/MiuiClock;->syncSecondsTicker`
+-    1  `com/android/systemui/statusbar/views/MiuiClock;->isSecondsEnabled`
+-    1  `java/lang/System;->currentTimeMillis`
+-    1  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->toneIfSameRoot`
+-    1  `android/widget/TextView;->setTextSize`
+-    1  `android/widget/TextView;->setPadding`
+-    1  `android/content/res/Resources;->getDisplayMetrics`
+-    1  `android/util/TypedValue;->applyDimension`
+
+## 新增类里调用的外部符号（top 80）
+
+-   78  `java/lang/StringBuilder;->append`
+-   54  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->log`
+-   41  `android/util/Log;->w`
+-   25  `android/content/Context;->getSystemService`
+-   24  `java/lang/Object;-><init>`
+-   18  `java/lang/StringBuilder;-><init>`
+-   18  `java/lang/StringBuilder;->toString`
+-   17  `android/view/ViewGroup;->getChildCount`
+-   15  `android/view/View;->getHeight`
+-   15  `android/view/ViewGroup;->getChildAt`
+-   14  `android/content/res/Resources;->getIdentifier`
+-   14  `android/view/View;->getVisibility`
+-   13  `android/view/View;->getWidth`
+-   13  `android/content/Context;->getContentResolver`
+-   12  `com/android/systemui/statusbar/phone/ui/IosLeftIcons;->logI`
+-   12  `android/view/View;->setVisibility`
+-   12  `android/view/View;->getLayoutParams`
+-   12  `android/view/View;->setLayoutParams`
+-   12  `android/content/Context;->getApplicationContext`
+-   11  `android/content/res/Resources;->getDisplayMetrics`
+-   11  `android/text/TextUtils;->isEmpty`
+-   11  `com/carrier/datasim/SimCarrierView;-><init>`
+-   10  `android/view/View;->getResources`
+-   10  `android/content/Context;->getResources`
+-   10  `android/content/ContentResolver;->registerContentObserver`
+-   10  `android/util/Log;->i`
+-    9  `android/view/View;->getParent`
+-    9  `android/view/View;->getRootView`
+-    9  `android/os/Handler;->postDelayed`
+-    9  `java/lang/Integer;->intValue`
+-    8  `android/view/View;->getContext`
+-    8  `android/os/Handler;-><init>`
+-    8  `java/lang/String;->equals`
+-    8  `java/lang/Object;->getClass`
+-    8  `android/os/Handler;->removeCallbacks`
+-    8  `com/carrier/datasim/SimAirplaneTextView;-><init>`
+-    8  `com/carrier/datasim/CcAnimFix;->animField`
+-    8  `com/carrier/datasim/SimSignalView;-><init>`
+-    8  `com/carrier/datasim/SimStateRepo;->get`
+-    7  `android/view/ViewGroup;->addView`
+-    7  `android/os/Looper;->getMainLooper`
+-    7  `android/view/View;->findViewById`
+-    7  `android/telephony/TelephonyManager;->createForSubscriptionId`
+-    7  `com/carrier/datasim/SimCarrierView;->refresh`
+-    7  `com/carrier/datasim/SimCarrierView;->isAncestorsVisible`
+-    7  `java/lang/Math;->max`
+-    7  `com/carrier/datasim/SimSignalView;->getContext`
+-    6  `java/util/ArrayList;->size`
+-    6  `com/android/systemui/statusbar/WeatherView;->setText`
+-    6  `java/lang/String;->endsWith`
+-    6  `android/widget/LinearLayout$LayoutParams;-><init>`
+-    6  `java/lang/String;->startsWith`
+-    6  `android/content/res/Resources;->getDimensionPixelSize`
+-    6  `com/carrier/datasim/CcAnimFix;->attrPx`
+-    6  `com/carrier/datasim/SimCarrierView;->cachedResId`
+-    6  `android/provider/Settings$Global;->getInt`
+-    6  `java/lang/String;->isEmpty`
+-    6  `com/carrier/datasim/SimCarrierView;->isAirplaneModeOn`
+-    6  `java/lang/Math;->round`
+-    6  `android/provider/Settings$Global;->getUriFor`
+-    6  `com/carrier/datasim/StatusBarRowsCoordinator;->getResources`
+-    5  `android/widget/ImageView;-><init>`
+-    5  `java/util/ArrayList;-><init>`
+-    5  `android/view/View;->getLocationOnScreen`
+-    5  `java/lang/Math;->abs`
+-    5  `java/lang/Math;->min`
+-    5  `java/util/ArrayList;->get`
+-    5  `com/android/keyguard/LockscreenPinGlass;->setKeyPressLight`
+-    5  `java/lang/String;->trim`
+-    5  `android/view/View;->getId`
+-    5  `android/os/SystemClock;->uptimeMillis`
+-    5  `java/lang/Float;->parseFloat`
+-    5  `com/carrier/datasim/CustomRotationLockView;->getContext`
+-    5  `android/util/SparseArray;->get`
+-    5  `com/carrier/datasim/SimAirplaneTextView;->getContext`
+-    5  `com/carrier/datasim/SimAirplaneTextView;->setHidden`
+-    5  `java/lang/Integer;->valueOf`
+-    5  `com/carrier/datasim/SimStateRepo;->access$000`
+-    5  `com/carrier/datasim/VpnIconView;->getContext`
+-    5  `com/carrier/datasim/WifiSignalView;->refresh`

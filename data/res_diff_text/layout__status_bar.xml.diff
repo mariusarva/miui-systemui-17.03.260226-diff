@@ -1,0 +1,16 @@
+--- A/layout/status_bar.xml
++++ B/layout/status_bar.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <com.android.systemui.statusbar.phone.MiuiPhoneStatusBarView android:orientation="vertical" android:id="@id/status_bar" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="@dimen/status_bar_height"
+-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
++  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+ <LinearLayout android:gravity="start|center" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/privacy_area" android:paddingTop="@dimen/status_bar_padding_top" android:paddingBottom="@dimen/status_bar_padding_bottom" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/privacy_dot_padding_start" android:layout_marginEnd="@dimen/status_bar_padding_end">
+ <LinearLayout android:orientation="horizontal" android:id="@id/privacy_container" android:layout_width="wrap_content" android:layout_height="match_parent" />
+@@ -10,5 +10,5 @@
+ <LinearLayout android:id="@id/phone_status_bar_left_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="match_parent">
+ <ViewStub android:id="@id/operator_name_stub" android:layout="@layout/operator_name" android:layout_width="wrap_content" android:layout_height="match_parent" />
+-<com.android.systemui.statusbar.views.MiuiClock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_marginStart="@dimen/status_bar_clock_margin_new" android:layout_marginEnd="@dimen/status_bar_clock_margin_new" systemui:MiuiAmPmStyle="gone" systemui:MiuiClockMode="time" />
++<com.android.systemui.statusbar.views.MiuiClock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_marginStart="@dimen/status_bar_clock_margin_new" android:layout_marginEnd="@dimen/status_bar_clock_margin_new" app:MiuiAmPmStyle="gone" app:MiuiClockMode="time" />
+ <ViewStub android:id="@id/pad_clock" android:layout="@layout/pad_clock" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/status_bar_padding_extra_start" android:layout_marginEnd="@dimen/status_bar_clock_margin_end" />
+ <include android:id="@id/ongoing_activity_chip_primary" layout="@layout/ongoing_activity_chip_primary" />

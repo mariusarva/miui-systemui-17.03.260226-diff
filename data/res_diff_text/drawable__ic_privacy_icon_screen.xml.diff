@@ -1,0 +1,13 @@
+--- A/drawable/ic_privacy_icon_screen.xml
++++ B/drawable/ic_privacy_icon_screen.xml
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<vector android:height="17.0dp" android:width="17.0dp" android:viewportWidth="17.0" android:viewportHeight="17.0"
++<vector android:height="58.5dp" android:width="58.5dp" android:viewportWidth="58.5" android:viewportHeight="58.5"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+-<path android:pathData="M6.5,2.59L10.5,2.59A2.5,2.5 0,0 1,13 5.09L13,11.09A2.5,2.5 0,0 1,10.5 13.59L6.5,13.59A2.5,2.5 0,0 1,4 11.09L4,5.09A2.5,2.5 0,0 1,6.5 2.59z" android:strokeColor="@color/header_privacy_container_icon_color" android:strokeWidth="1.0" />
+-<path android:fillColor="@color/header_privacy_container_icon_color" android:pathData="M6.5,4.09L10.5,4.09A1,1 0,0 1,11.5 5.09L11.5,11.09A1,1 0,0 1,10.5 12.09L6.5,12.09A1,1 0,0 1,5.5 11.09L5.5,5.09A1,1 0,0 1,6.5 4.09z" />
++<path android:fillColor="#0a84fe" android:pathData="M29.25,29.25m-29.25,0a29.25,29.25 0,1 1,58.5 0a29.25,29.25 0,1 1,-58.5 0" />
++<path android:fillColor="#fff" android:pathData="M37.77,42.8c0.47,0 0.8,-0.2 0.98,-0.61s0.11,-0.79 -0.21,-1.15l-8.43,-9.54c-0.19,-0.23 -0.46,-0.34 -0.82,-0.34s-0.65,0.11 -0.88,0.34l-8.46,9.54c-0.32,0.36 -0.39,0.74 -0.21,1.15s0.51,0.61 0.98,0.61h17.06Z" />
++<path android:fillColor="#fff" android:pathData="M41.77,15.7h-25.06c-1.21,0 -2.2,0.38 -2.97,1.15s-1.15,1.75 -1.15,2.94v13.74c0,1.21 0.38,2.2 1.15,2.95s1.76,1.14 2.97,1.14h3.09l2.64,-2.98h-5.39c-0.38,0 -0.7,-0.12 -0.95,-0.37s-0.38,-0.58 -0.38,-0.99v-13.2c0,-0.42 0.13,-0.76 0.38,-1.02s0.57,-0.4 0.95,-0.4h24.41c0.38,0 0.7,0.13 0.95,0.4s0.38,0.61 0.38,1.02v13.2c0,0.42 -0.13,0.75 -0.38,0.99s-0.57,0.37 -0.95,0.37h-5.36l2.58,2.98h3.09c1.21,0 2.2,-0.38 2.98,-1.14s1.16,-1.74 1.16,-2.95v-13.74c0,-1.19 -0.39,-2.17 -1.16,-2.94s-1.77,-1.15 -2.98,-1.15Z" />
+ </vector>

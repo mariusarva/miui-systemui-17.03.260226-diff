@@ -1,0 +1,11 @@
+--- A/drawable/ic_privacy_icon_location.xml
++++ B/drawable/ic_privacy_icon_location.xml
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
++<vector android:height="58.5dp" android:width="58.5dp" android:viewportWidth="58.5" android:viewportHeight="58.5"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+-<path android:fillColor="@color/header_privacy_container_icon_color" android:pathData="M8,2.492C10.389,2.492 12.326,4.429 12.326,6.818C12.326,9.246 10.117,11.356 8.859,12.914C8.561,13.236 8.427,13.401 8.236,13.468C8.091,13.519 7.909,13.519 7.764,13.468C7.573,13.401 7.451,13.236 7.136,12.914C5.878,11.356 3.674,9.246 3.674,6.818C3.674,4.429 5.611,2.492 8,2.492ZM8,5.035C7.034,5.035 6.251,5.818 6.251,6.784C6.251,7.75 7.034,8.533 8,8.533C8.966,8.533 9.749,7.75 9.749,6.784C9.749,5.818 8.966,5.035 8,5.035Z" />
++<path android:fillColor="#0079fd" android:pathData="M29.25,29.25m-29.25,0a29.25,29.25 0,1 1,58.5 0a29.25,29.25 0,1 1,-58.5 0" />
++<path android:fillColor="#fff" android:pathData="M17.39,30.02c-0.73,0 -1.24,-0.2 -1.54,-0.61s-0.39,-0.86 -0.27,-1.35 0.45,-0.87 0.99,-1.12l23.45,-11.15c0.65,-0.3 1.23,-0.35 1.75,-0.15s0.88,0.55 1.08,1.07 0.15,1.09 -0.15,1.74l-11.03,23.5c-0.25,0.53 -0.62,0.86 -1.11,0.98s-0.94,0.04 -1.35,-0.26 -0.62,-0.82 -0.62,-1.57v-10.26c0,-0.55 -0.26,-0.82 -0.79,-0.82h-10.41Z" />
+ </vector>

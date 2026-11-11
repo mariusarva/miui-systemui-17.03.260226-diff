@@ -1,0 +1,128 @@
+--- A/raw/music_player_tracker.frag
++++ B/raw/music_player_tracker.frag
+@@ -1,5 +1,5 @@
+ uniform vec2 uResolution;
+-uniform float uTime;// nouse
+-uniform shader uTex;// nouse
++uniform float uTime;
++uniform shader uTex;
+ 
+ uniform float uTrackProgress;
+@@ -10,5 +10,4 @@
+ uniform float uHeadGlowAlpha;
+ uniform int uIsRtl;
+-
+ 
+ vec4 addBlend(vec4 src, vec4 dst) {
+@@ -24,10 +23,9 @@
+ }
+ 
+-
+-float rbx( in vec2 p, in vec2 b, in vec4 r ) {
+-    r.xy = (p.x>0.0)?r.xy : r.zw;
+-    r.x  = (p.y>0.0)?r.x  : r.y;
+-    vec2 q = abs(p)-b+r.x;
+-    return min(max(q.x,q.y),0.0) + length(max(q,0.0)) - r.x;
++float rbx(in vec2 p, in vec2 b, in vec4 r) {
++    r.xy = (p.x > 0.0) ? r.xy : r.zw;
++    r.x = (p.y > 0.0) ? r.x : r.y;
++    vec2 q = abs(p) - b + r.x;
++    return min(max(q.x, q.y), 0.0) + length(max(q, 0.0)) - r.x;
+ }
+ 
+@@ -37,5 +35,4 @@
+ 
+     vec2 b = size / uResolution.y / 2.0;
+-    //    p.y -= 0.5 - pos.y / uResolution.y;
+     p.y += (uResolution.y / 2.0 - pos.y - size.y / 2.0) / uResolution.y;
+     p.x -= pos.x / uResolution.y + b.x - uResolution.x / uResolution.y / 2.0;
+@@ -43,5 +40,4 @@
+     vec4 r = vec4(min(size.x, size.y) / uResolution.y / 2.0);
+     float d = rbx(p, b, r);
+-    // return smoothstep(0.001, -0.001, d);
+     return d;
+ }
+@@ -49,10 +45,9 @@
+ vec4 draw_track(in vec2 uv) {
+     float d = capsule(uv, vec2(uTrackPosition.x, uResolution.y - uTrackPosition.y - uTrackSize.y / 2.0), uTrackSize);
+-    float a = smoothstep(1./uResolution.y, -1./uResolution.y, d);
++    float a = smoothstep(1.0 / uResolution.y, -1.0 / uResolution.y, d);
+     return vec4(0.2 * a);
+ }
+ 
+ vec4 draw_track_progress(in vec2 uv, in float progress) {
+-    // 1. the current progress
+     float m = min(uTrackSize.x, uTrackSize.y);
+ 
+@@ -60,27 +55,23 @@
+     size.x = mix(m, uTrackSize.x, progress);
+ 
+-    //    float d = capsule(uv, uTrackPosition, size);
+     float d = capsule(uv, vec2(uTrackPosition.x, uResolution.y - uTrackPosition.y - uTrackSize.y / 2.0), size);
+-    float a = smoothstep(1./uResolution.y, -1./uResolution.y, d) * 0.6;
++    float a = smoothstep(1.0 / uResolution.y, -1.0 / uResolution.y, d) * 0.6;
+ 
+-    //    vec2 csize = uTrackCanvasSize;
+-    //    vec2 hsize = uHeadSize ;
+-    vec2 hsize = vec2(75.0, 38.0) * 2.7551020408; ;
++    // ====== 炫光垂直范围控制 ======
++    float verticalScale = 1;  // 调大这个值，炫光上下更宽
++    vec2 hsize = vec2(75.0, 38.0 * verticalScale) * 2.7551020408;
+     float thight = 6.0 * 2.7551020408;
+     float xoffset = 52.0 * 2.7551020408;
+ 
+     vec2 st = uv;
+-    // map st to tracksize
+     st.x = (st.x - uTrackPosition.x / uResolution.x) / (uTrackSize.x / uResolution.x);
+     st.y -= (uResolution.y - uTrackPosition.y - uTrackSize.y / 2.0) / uResolution.y;
+     st.y *= uResolution.y / uTrackSize.y;
+ 
+-    // float startFade = clamp(st.x / (uTrackSize.y / uTrackSize.x * (hsize.x / hsize.y)), 0.0, 1.0);
+-    float startFade = smoothstep(0.0, uTrackSize.y / uTrackSize.x * (hsize.x / hsize.y) * 1.5, st.x);
++    float glowRange = 3.0;
++    float startFade = smoothstep(0.0, uTrackSize.y / uTrackSize.x * (hsize.x / hsize.y) * glowRange, st.x);
+ 
+     st.x -= mix(uTrackSize.y / 2.0, uTrackSize.x - uTrackSize.y / 2.0, progress) / uTrackSize.x;
+ 
+-
+-    // scale the head size to the track size
+     st.y -= 0.5;
+     st.x /= (uTrackSize.y / thight) * (hsize.x / uTrackSize.x);
+@@ -88,13 +79,19 @@
+     st.y += 0.5;
+ 
+-    // move the head to the start of the track
+     st.x -= -xoffset / hsize.x;
+ 
+-    vec4 head = uTex.eval(st*uHeadSize);// * 0.5;
++    vec4 head = uTex.eval(st * uHeadSize);
+     head *= startFade * uHeadGlowAlpha;
+-    return alphaBlend(head, vec4(a));
++    
++    // 粉紫色进度条
++    vec3 pinkPurple = vec3(0.91, 0.71, 0.85);
++    vec4 progressBody = vec4(pinkPurple * a, a);
++    vec4 glow = head;
++    vec4 result = alphaBlend(glow, progressBody);
++    
++    return result;
+ }
+ 
+-vec4 main(vec2 fragCoord){
++vec4 main(vec2 fragCoord) {
+     vec2 vUv = fragCoord / uResolution;
+     if (uIsRtl == 1) {
+@@ -103,12 +100,10 @@
+     vec4 color = vec4(0.0);
+ 
+-    // 1. the track
+     vec4 track = draw_track(vUv);
+-    //    return track;
+     color = alphaBlend(track, color);
+ 
+-    // 2. the progress
+     vec4 progress = draw_track_progress(vUv, uTrackProgress);
+     color = alphaBlend(progress, color);
++    
+     return color;
+ }

@@ -1,0 +1,302 @@
+# values 层差异
+
+- 新增键 124 / 删除键 20 / 值变化 146
+
+## 新增键
+
+- `-land/dimen/notification_panel_shade_header_top_padding` = `10.0dp`
+- `-xxhdpi/dimen/album_art_bg_radius` = `14.0dp`
+- `-xxhdpi/dimen/anim_x_in` = `-30.5dp`
+- `-xxhdpi/dimen/anim_y_dual` = `-58.0px`
+- `-xxhdpi/dimen/anim_y_fade` = `2.1999817dp`
+- `-xxhdpi/dimen/battery_percent_mark_view_padding_top` = `0.0dp`
+- `-xxhdpi/dimen/battery_percent_mark_view_text_size` = `13.5dp`
+- `-xxhdpi/dimen/classic_plus_classic_max_text_area_text_size` = `22.0dp`
+- `-xxhdpi/dimen/combined_blur_max_radius` = `30.0dp`
+- `-xxhdpi/dimen/combined_header_height` = `135.0dp`
+- `-xxhdpi/dimen/header_blur_max_radius` = `10.909973dp`
+- `-xxhdpi/dimen/header_privacy_container_icon_size` = `18.0dp`
+- `-xxhdpi/dimen/header_privacy_container_text_size` = `15.0dp`
+- `-xxhdpi/dimen/media_bg_radius` = `32.0dp`
+- `-xxhdpi/dimen/notification_divider_height` = `6.0dp`
+- `-xxhdpi/dimen/notification_item_bg_radius` = `26.0dp`
+- `-xxhdpi/dimen/notification_panel_margin_top` = `0.0dp`
+- `-xxhdpi/dimen/notification_panel_padding_bottom` = `0.0dp`
+- `-xxhdpi/dimen/notification_panel_shade_header_top_padding` = `100.0dp`
+- `-xxhdpi/dimen/ns_notification_header_clock_size` = `18.0dp`
+- `-xxhdpi/dimen/qs_control_big_tile_corner_radius` = `17.449982dp`
+- `-xxhdpi/dimen/qs_control_big_tile_label_margin_top` = `18.54544dp`
+- `-xxhdpi/dimen/qs_control_big_tile_status_width` = `64.727264dp`
+- `-xxhdpi/dimen/qs_control_big_tile_title_width` = `84.36362dp`
+- `-xxhdpi/dimen/qs_control_bottom_expand_height` = `61.818176dp`
+- `-xxhdpi/dimen/qs_control_center_tile_margin_start` = `18.090881dp`
+- `-xxhdpi/dimen/qs_control_content_view_margin_right` = `83.63635dp`
+- `-xxhdpi/dimen/qs_control_expand_tile_detail_margin_left` = `24.363617dp`
+- `-xxhdpi/dimen/qs_control_expand_tile_label_margin_top` = `14.0dp`
+- `-xxhdpi/dimen/qs_control_foot_panel_margin_top` = `174.54538dp`
+- `-xxhdpi/dimen/qs_control_footer_icon_size` = `14.54538dp`
+- `-xxhdpi/dimen/qs_control_header_tiles_height` = `42.54544dp`
+- `-xxhdpi/dimen/qs_control_header_tiles_title_size` = `32.0sp`
+- `-xxhdpi/dimen/qs_control_mi_play_detail_width` = `313.0dp`
+- `-xxhdpi/dimen/qs_control_smart_tile_height` = `174.54544dp`
+- `-xxhdpi/dimen/qs_control_smart_tile_icon_margin_bottom` = `21.818176dp`
+- `-xxhdpi/dimen/qs_control_smart_tile_icon_margin_left` = `8.0dp`
+- `-xxhdpi/dimen/qs_control_smart_tile_text_margin_left` = `20.0dp`
+- `-xxhdpi/dimen/qs_control_smart_tile_text_margin_top` = `21.090881dp`
+- `-xxhdpi/dimen/qs_control_smart_tile_width` = `154.90909dp`
+- `-xxhdpi/dimen/qs_media_session_height_expanded` = `140.0dp`
+- `-xxhdpi/dimen/qs_media_session_height_expanded_fullAod` = `140.0dp`
+- `-xxhdpi/dimen/shade_header_bottom_padding` = `-100.0dp`
+- `-xxhdpi/dimen/shade_header_control_center_carrier_text_size` = `14.0dp`
+- `-xxhdpi/dimen/shade_header_control_center_date_text_size` = `0.0dp`
+- `-xxhdpi/dimen/shade_header_notification_clock_text_size` = `85.0dp`
+- `-xxhdpi/dimen/shade_header_notification_date_text_size` = `17.0dp`
+- `-xxhdpi/dimen/status_bar_battery_percent_size` = `13.5dp`
+- `-xxhdpi/dimen/status_bar_clock_size_new` = `13.5dp`
+- `-xxhdpi/dimen/status_bar_icon_height` = `20.0dp`
+- `-xxxhdpi/dimen/album_art_bg_radius` = `14.0dp`
+- `-xxxhdpi/dimen/anim_x_in` = `-30.5dp`
+- `-xxxhdpi/dimen/anim_y_dual` = `-58.0px`
+- `-xxxhdpi/dimen/anim_y_fade` = `2.399994dp`
+- `-xxxhdpi/dimen/battery_percent_mark_view_padding_top` = `0.0dp`
+- `-xxxhdpi/dimen/battery_percent_mark_view_text_size` = `13.5dp`
+- `-xxxhdpi/dimen/classic_plus_classic_max_text_area_text_size` = `22.0dp`
+- `-xxxhdpi/dimen/combined_blur_max_radius` = `30.0dp`
+- `-xxxhdpi/dimen/combined_header_height` = `135.0dp`
+- `-xxxhdpi/dimen/header_blur_max_radius` = `3.0dp`
+- `-xxxhdpi/dimen/header_privacy_container_icon_size` = `18.0dp`
+- `-xxxhdpi/dimen/header_privacy_container_text_size` = `15.0dp`
+- `-xxxhdpi/dimen/media_bg_radius` = `32.0dp`
+- `-xxxhdpi/dimen/notification_divider_height` = `6.0dp`
+- `-xxxhdpi/dimen/notification_item_bg_radius` = `26.0dp`
+- `-xxxhdpi/dimen/notification_panel_margin_top` = `0.0dp`
+- `-xxxhdpi/dimen/notification_panel_padding_bottom` = `0.0dp`
+- `-xxxhdpi/dimen/notification_panel_shade_header_top_padding` = `100.0dp`
+- `-xxxhdpi/dimen/ns_notification_header_clock_size` = `18.0dp`
+- `-xxxhdpi/dimen/qs_control_mi_play_detail_width` = `313.0dp`
+- `-xxxhdpi/dimen/qs_media_session_height_expanded` = `140.0dp`
+- `-xxxhdpi/dimen/qs_media_session_height_expanded_fullAod` = `140.0dp`
+- `-xxxhdpi/dimen/shade_header_bottom_padding` = `-100.0dp`
+- `-xxxhdpi/dimen/shade_header_control_center_carrier_text_size` = `14.0dp`
+- `-xxxhdpi/dimen/shade_header_control_center_date_text_size` = `0.0dp`
+- `-xxxhdpi/dimen/shade_header_notification_clock_text_size` = `85.0dp`
+- `-xxxhdpi/dimen/shade_header_notification_date_text_size` = `17.0dp`
+- `-xxxhdpi/dimen/status_bar_battery_percent_size` = `14.5dp`
+- `-xxxhdpi/dimen/status_bar_clock_size_new` = `13.5dp`
+- `-xxxhdpi/dimen/status_bar_icon_height` = `20.0dp`
+- `default/id/keyguard_datasim_carrier` = ``
+- `default/id/system_icons_containerA` = ``
+- `default/id/system_icons_containerB` = ``
+- `default/public/anim_x_in` = ``
+- `default/public/anim_y_dual` = ``
+- `default/public/anim_y_fade` = ``
+- `default/public/battery_progress_drawable` = ``
+- `default/public/bell` = ``
+- `default/public/ic_battery_charging` = ``
+- `default/public/ic_battery_normal` = ``
+- `default/public/keyguard_datasim_carrier` = ``
+- `default/public/leaf` = ``
+- `default/public/media_bg_radius` = ``
+- `default/public/rotation` = ``
+- `default/public/system_icons_containerA` = ``
+- `default/public/system_icons_containerB` = ``
+- `default/public/weather_icons_0` = ``
+- `default/public/weather_icons_0_n` = ``
+- `default/public/weather_icons_1` = ``
+- `default/public/weather_icons_10` = ``
+- `default/public/weather_icons_11` = ``
+- `default/public/weather_icons_12` = ``
+- `default/public/weather_icons_13` = ``
+- `default/public/weather_icons_14` = ``
+- `default/public/weather_icons_15` = ``
+- `default/public/weather_icons_16` = ``
+- `default/public/weather_icons_18` = ``
+- `default/public/weather_icons_19` = ``
+- `default/public/weather_icons_1_n` = ``
+- `default/public/weather_icons_2` = ``
+- `default/public/weather_icons_20` = ``
+- `default/public/weather_icons_21` = ``
+- `default/public/weather_icons_22` = ``
+- `default/public/weather_icons_23` = ``
+- `default/public/weather_icons_24` = ``
+- `default/public/weather_icons_25` = ``
+- `default/public/weather_icons_3` = ``
+- `default/public/weather_icons_3_n` = ``
+- `default/public/weather_icons_4` = ``
+- `default/public/weather_icons_5` = ``
+- `default/public/weather_icons_6` = ``
+- `default/public/weather_icons_7` = ``
+- `default/public/weather_icons_8` = ``
+- `default/public/weather_icons_9` = ``
+
+## 删除键
+
+- `-xxhdpi/dimen/biometric_dialog_fingerprint_icon_height` = `120.0dp`
+- `-xxhdpi/dimen/biometric_dialog_fingerprint_icon_width` = `120.0dp`
+- `-xxhdpi/dimen/expanded_weather_size` = `12.659973dp`
+- `-xxhdpi/dimen/qs_brightness_dialog_height` = `40.0dp`
+- `-xxhdpi/dimen/qs_brightness_icon_margin` = `10.0dp`
+- `-xxhdpi/dimen/qs_brightness_top_margin` = `9.329987dp`
+- `-xxhdpi/dimen/qs_detail_header_image_height` = `56.0dp`
+- `-xxhdpi/dimen/qs_detail_header_image_padding` = `16.0dp`
+- `-xxhdpi/dimen/qs_detail_header_image_width` = `56.0dp`
+- `-xxhdpi/dimen/qs_miplay_entrace_view_margin_top` = `20.0dp`
+- `-xxhdpi/dimen/qs_page_indicator_dot_size` = `5.3299866dp`
+- `-xxhdpi/dimen/qs_page_indicator_dot_space` = `8.0dp`
+- `-xxhdpi/dimen/qs_panel_expand_indicator_height` = `28.659973dp`
+- `-xxhdpi/dimen/qs_panel_expand_indicator_shadow_spread` = `1.1699829dp`
+- `-xxhdpi/dimen/qs_panel_expand_indicator_stroke_width` = `3.5dp`
+- `-xxhdpi/dimen/qs_panel_expand_indicator_width` = `36.0dp`
+- `-xxhdpi/dimen/qs_tile_icon_bg_size` = `46.0dp`
+- `-xxhdpi/dimen/qs_tile_label_text_size` = `10.669983sp`
+- `-xxhdpi/dimen/statusbar_carrier_size` = `11.0dp`
+- `-xxhdpi/dimen/statusbar_wifi_generation_size` = `5.8181763sp`
+
+## 值变化
+
+- `-night/color/focus_notification_element_blend_keyguard_color_1` : `#757a7a7a` → `#777777`
+- `-night/color/focus_notification_element_blend_keyguard_color_2` : `#4f6100` → `#155900`
+- `-night/color/focus_notification_element_blend_keyguard_color_3` : `#99000000` → `#00000000`
+- `-night/color/focus_notification_element_blend_shade_color_1` : `#7a7a7a` → `#838383`
+- `-night/color/focus_notification_element_blend_shade_color_2` : `#127300` → `#128f00`
+- `-night/color/focus_notification_element_blend_shade_color_3` : `#7a000000` → `#00000000`
+- `-night/color/media_notification_element_blend_keyguard_color_1` : `#757a7a7a` → `#777777`
+- `-night/color/media_notification_element_blend_keyguard_color_2` : `#4f6100` → `#155900`
+- `-night/color/media_notification_element_blend_keyguard_color_3` : `#99000000` → `#00000000`
+- `-night/color/media_notification_element_blend_shade_color_1` : `#7a7a7a` → `#838383`
+- `-night/color/media_notification_element_blend_shade_color_2` : `#127300` → `#128f00`
+- `-night/color/media_notification_element_blend_shade_color_3` : `#7a000000` → `#00000000`
+- `-night/color/notification_primary_text_color_light` : `#ffffff` → `#e6ffffff`
+- `-night/color/notification_secondary_text_color_light` : `#ffffff` → `#e6ffffff`
+- `-night/color/optimized_heads_up_notification_text` : `#b2ffffff` → `#e6ffffff`
+- `-xxhdpi/dimen/control_center_bottom_area_height` : `36.666656dp` → `40.0dp`
+- `-xxhdpi/dimen/qs_control_big_tile_height` : `73.33331dp` → `80.0dp`
+- `-xxhdpi/dimen/qs_control_big_tile_icon_margin_left` : `0.9991667dp` → `1.0899963dp`
+- `-xxhdpi/dimen/qs_control_big_tile_icon_size` : `59.335815dp` → `64.72998dp`
+- `-xxhdpi/dimen/qs_control_big_tile_indicator_padding` : `10.0dp` → `10.909088dp`
+- `-xxhdpi/dimen/qs_control_big_tile_indicator_size` : `8.0dp` → `8.727264dp`
+- `-xxhdpi/dimen/qs_control_big_tile_indicator_touch_h` : `12.0dp` → `13.090881dp`
+- `-xxhdpi/dimen/qs_control_big_tile_indicator_touch_v` : `10.333313dp` → `11.272705dp`
+- `-xxhdpi/dimen/qs_control_big_tile_label_margin_Left` : `-9.001648dp` → `-9.819977dp`
+- `-xxhdpi/dimen/qs_control_big_tile_label_margin_Right` : `13.333313dp` → `14.545441dp`
+- `-xxhdpi/dimen/qs_control_big_tile_status_margin_top` : `1.6666565dp` → `1.8181763dp`
+- `-xxhdpi/dimen/qs_control_big_tile_sub_title_size` : `12.0sp` → `13.090881sp`
+- `-xxhdpi/dimen/qs_control_big_tile_title_size` : `15.333313sp` → `16.727264sp`
+- `-xxhdpi/dimen/qs_control_big_tile_width` : `142.0dp` → `154.90909dp`
+- `-xxhdpi/dimen/qs_control_big_tiles_interval_vertical` : `13.333313dp` → `14.545441dp`
+- `-xxhdpi/dimen/qs_control_big_tiles_margin_bottom` : `20.0dp` → `21.818176dp`
+- `-xxhdpi/dimen/qs_control_big_tiles_padding_top` : `16.666656dp` → `18.181793dp`
+- `-xxhdpi/dimen/qs_control_bottom_indicator_height` : `56.666656dp` → `61.818176dp`
+- `-xxhdpi/dimen/qs_control_bottom_indicator_padding_vertical` : `26.666656dp` → `29.090881dp`
+- `-xxhdpi/dimen/qs_control_brightness_corner_radius` : `15.999878dp` → `17.454498dp`
+- `-xxhdpi/dimen/qs_control_brightness_dialog_height` : `56.666656dp` → `61.818176dp`
+- `-xxhdpi/dimen/qs_control_brightness_icon_margin` : `16.666656dp` → `18.181793dp`
+- `-xxhdpi/dimen/qs_control_brightness_icon_size` : `28.0dp` → `30.54544dp`
+- `-xxhdpi/dimen/qs_control_brightness_margin_top` : `19.99997dp` → `21.818176dp`
+- `-xxhdpi/dimen/qs_control_brightness_width` : `218.33331dp` → `238.18182dp`
+- `-xxhdpi/dimen/qs_control_center_tile_height` : `65.66666dp` → `71.63635dp`
+- `-xxhdpi/dimen/qs_control_center_tile_margin_top` : `19.999939dp` → `21.818115dp`
+- `-xxhdpi/dimen/qs_control_center_tile_width` : `59.333313dp` → `64.727264dp`
+- `-xxhdpi/dimen/qs_control_corner_general_radius` : `15.999878dp` → `17.454498dp`
+- `-xxhdpi/dimen/qs_control_custom_tile_icon_inner_size` : `28.00415dp` → `30.549988dp`
+- `-xxhdpi/dimen/qs_control_customizer_marker_height` : `21.333313dp` → `23.272705dp`
+- `-xxhdpi/dimen/qs_control_customizer_marker_width` : `21.333313dp` → `23.272705dp`
+- `-xxhdpi/dimen/qs_control_customizer_others_bg_radius` : `18.666595dp` → `20.363586dp`
+- `-xxhdpi/dimen/qs_control_customizer_others_padding_bottom` : `26.666656dp` → `29.090881dp`
+- `-xxhdpi/dimen/qs_control_customizer_others_padding_top` : `9.9999695dp` → `10.909088dp`
+- `-xxhdpi/dimen/qs_control_customizer_others_title_height` : `24.0dp` → `26.181793dp`
+- `-xxhdpi/dimen/qs_control_customizer_others_title_margin_top` : `9.9999695dp` → `10.909088dp`
+- `-xxhdpi/dimen/qs_control_customizer_others_title_size` : `17.99997sp` → `19.636353sp`
+- `-xxhdpi/dimen/qs_control_customizer_tile_height` : `84.66666dp` → `92.36362dp`
+- `-xxhdpi/dimen/qs_control_customizer_tile_width` : `62.666656dp` → `68.36362dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_content_margin_top` : `29.99997dp` → `32.727264dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_margin_bottom` : `17.666656dp` → `19.272705dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_margin_top` : `39.99997dp` → `43.636353dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_save_height` : `26.0dp` → `28.363617dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_save_text_size` : `13.333313sp` → `14.545441sp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_save_width` : `56.666656dp` → `61.818176dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_sub_title_height` : `15.9999695dp` → `17.454529dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_sub_title_size` : `12.0sp` → `13.090881sp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_title_height` : `29.99997dp` → `32.727264dp`
+- `-xxhdpi/dimen/qs_control_customizer_tiles_title_size` : `22.666656sp` → `24.727264sp`
+- `-xxhdpi/dimen/qs_control_detail_header_height` : `67.33331dp` → `73.45453dp`
+- `-xxhdpi/dimen/qs_control_detail_header_padding` : `22.666656dp` → `24.727264dp`
+- `-xxhdpi/dimen/qs_control_detail_header_text_size` : `23.333313sp` → `25.454529sp`
+- `-xxhdpi/dimen/qs_control_detail_item_height` : `70.0dp` → `76.36359dp`
+- `-xxhdpi/dimen/qs_control_detail_more_button_margin` : `20.0dp` → `21.818176dp`
+- `-xxhdpi/dimen/qs_control_detail_more_button_text_size` : `14.0dp` → `15.272705dp`
+- `-xxhdpi/dimen/qs_control_detail_width` : `297.32812dp` → `324.35938dp`
+- `-xxhdpi/dimen/qs_control_detail_wifi_bt_height` : `430.66406dp` → `469.8125dp`
+- `-xxhdpi/dimen/qs_control_detail_wifi_bt_height_for_pad` : `430.66406dp` → `469.8125dp`
+- `-xxhdpi/dimen/qs_control_expand_detail_items_height` : `300.0dp` → `327.26562dp`
+- `-xxhdpi/dimen/qs_control_expand_indicator_margin_top` : `19.666656dp` → `21.454529dp`
+- `-xxhdpi/dimen/qs_control_expand_tile_icon_margin_left` : `13.333313dp` → `14.545441dp`
+- `-xxhdpi/dimen/qs_control_expand_tile_icon_size` : `28.0dp` → `30.54544dp`
+- `-xxhdpi/dimen/qs_control_expand_tile_label_margin_Left` : `7.333313dp` → `8.0dp`
+- `-xxhdpi/dimen/qs_control_expand_tile_sub_title_size` : `21.333313sp` → `23.272705sp`
+- `-xxhdpi/dimen/qs_control_expand_tile_title_size` : `11.333313sp` → `12.363617sp`
+- `-xxhdpi/dimen/qs_control_expand_tile_unit_size` : `10.0sp` → `10.909088sp`
+- `-xxhdpi/dimen/qs_control_foot_panel_brightness_height` : `103.33331dp` → `112.727264dp`
+- `-xxhdpi/dimen/qs_control_foot_panel_to_top` : `403.65625dp` → `440.35156dp`
+- `-xxhdpi/dimen/qs_control_footer_height` : `13.666595dp` → `14.909088dp`
+- `-xxhdpi/dimen/qs_control_footer_icon_margin_end` : `12.265778dp` → `13.454498dp`
+- `-xxhdpi/dimen/qs_control_footer_text_size` : `9.945282dp` → `10.909088dp`
+- `-xxhdpi/dimen/qs_control_header_button_size` : `22.666656dp` → `24.727264dp`
+- `-xxhdpi/dimen/qs_control_land_tiles_margin_middle` : `43.333282dp` → `47.272675dp`
+- `-xxhdpi/dimen/qs_control_scrollview_overfling_distance` : `33.36664dp` → `36.399994dp`
+- `-xxhdpi/dimen/qs_control_tile_icon_bg_size` : `59.333313dp` → `64.727264dp`
+- `-xxhdpi/dimen/qs_control_tile_label_padding_top` : `5.9999695dp` → `4.5454407dp`
+- `-xxhdpi/dimen/qs_control_tile_label_text_size` : `12.0sp` → `13.090881sp`
+- `-xxhdpi/dimen/qs_control_tiles_container_margin_bottom` : `18.333313dp` → `20.0dp`
+- `-xxhdpi/dimen/qs_control_tiles_container_margin_top` : `17.333313dp` → `18.909088dp`
+- `-xxhdpi/dimen/qs_control_tiles_indicator_height` : `3.3332825dp` → `3.7999878dp`
+- `-xxhdpi/dimen/qs_control_tiles_indicator_width` : `40.0dp` → `61.818176dp`
+- `-xxhdpi/dimen/qs_control_title_margin_end` : `57.333313dp` → `62.54544dp`
+- `-xxhdpi/dimen/qs_control_width_land` : `297.32812dp` → `324.35938dp`
+- `-xxhdpi/dimen/qs_customer_added_tile_height_for_pad` : `500.0dp` → `545.4531dp`
+- `-xxhdpi/dimen/qs_max_height_for_pad` : `533.3281dp` → `581.8125dp`
+- `-xxhdpi/dimen/qs_max_width_for_pad` : `360.0dp` → `392.72656dp`
+- `-zh-rCN/string/face_unlock_fail_retry_global` : `点击图标使用人脸解锁` → `击图标使用人脸解锁`
+- `-zh-rCN/string/keyguard_num_state_zen_mode_text` : `勿扰` → `勿扰默认`
+- `-zh-rCN/string/quick_settings_cellular_detail_title` : `移动数据` → `蜂窝数据`
+- `-zh-rCN/string/quick_settings_miui_wifi_label` : `WLAN` → `无线局域网`
+- `-zh-rCN/string/quick_settings_miui_wlan_label` : `WLAN` → `无线局域网`
+- `default/array/cc_detail_panel_selectable_items_blend_colors` : `` → ``
+- `default/array/cc_detail_panel_selectable_items_single_selected_blend_colors` : `` → ``
+- `default/array/cc_detail_panel_selectable_items_single_selected_blend_colors_bionics` : `` → ``
+- `default/array/control_center_detail_background_blend_colors` : `` → ``
+- `default/array/modal_miplay_container_blend_colors` : `` → ``
+- `default/array/shade_blend_colors_bionics` : `` → ``
+- `default/array/window_background_blend_colors_bionics` : `` → ``
+- `default/color/focus_notification_element_blend_keyguard_color_1` : `#a0a0a0` → `#919191`
+- `default/color/focus_notification_element_blend_keyguard_color_2` : `#ccf200` → `#bdfa00`
+- `default/color/focus_notification_element_blend_keyguard_color_3` : `#6effffff` → `#00000000`
+- `default/color/focus_notification_element_blend_shade_color_1` : `#999999` → `#818181`
+- `default/color/focus_notification_element_blend_shade_color_2` : `#ccff00` → `#b3ff00`
+- `default/color/focus_notification_element_blend_shade_color_3` : `#61ffffff` → `#00000000`
+- `default/color/header_carrier_text_color` : `#ccffffff` → `#ffffff`
+- `default/color/media_notification_element_blend_keyguard_color_1` : `#a0a0a0` → `#919191`
+- `default/color/media_notification_element_blend_keyguard_color_2` : `#ccf200` → `#bdfa00`
+- `default/color/media_notification_element_blend_keyguard_color_3` : `#6effffff` → `#00000000`
+- `default/color/media_notification_element_blend_shade_color_1` : `#999999` → `#818181`
+- `default/color/media_notification_element_blend_shade_color_2` : `#ccff00` → `#b3ff00`
+- `default/color/media_notification_element_blend_shade_color_3` : `#61ffffff` → `#00000000`
+- `default/color/notification_action_text_color` : `#cc000000` → `#e6ffffff`
+- `default/color/notification_primary_text_color_light` : `#000000` → `#ffffff`
+- `default/color/notification_secondary_text_color_light` : `#000000` → `#e6ffffff`
+- `default/color/notification_time_color` : `#99000000` → `#e6ffffff`
+- `default/color/notification_time_color_with_bg_dark` : `#33ffffff` → `#e6ffffff`
+- `default/color/notification_time_color_with_bg_light` : `#4d000000` → `#e6ffffff`
+- `default/color/optimized_heads_up_notification_action_text` : `#b3000000` → `#e6ffffff`
+- `default/color/optimized_heads_up_notification_text` : `#e6000000` → `#e6ffffff`
+- `default/string/fmt_time_12hour_minute` : `h:mm` → `hh:mm`
+- `default/string/fmt_time_24hour_minute` : `H:mm` → `HH:mm`
+- `default/string/status_bar_clock_date_weekday_format_12_brief` : `@string/status_bar_clock_date_format_12` → `M月d日EEE•YY年N月e`
+- `default/string/status_bar_clock_date_weekday_format_brief` : `@string/status_bar_clock_date_format` → `M月d日EEE•YY年N月e`
+- `default/string-array/config_statusBarIcons` : `` → ``
+- `default/string-array/config_statusBarIconsToExclude` : `` → ``
+- `default/string-array/data_type_name_default_value` : `` → ``
+- `default/style/TextAppearance.StatusBar.NetWorkSpeedNumber` : `` → ``
+- `default/style/TextAppearance.StatusBar.NetWorkSpeedUnit` : `` → ``
+- `default/style/Widget.Design.ScrimInsetsFrameLayout` : `` → ``
+- `default/style/Widget.TextView.NumPadKey.Digit` : `` → ``
